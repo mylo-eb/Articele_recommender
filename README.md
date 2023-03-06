@@ -7,6 +7,8 @@ Our aim is to offer recommendations for articles that are comparable in meaning 
 
 ## Dataset Information
 Our dataset comprises approximately 3,000 articles that have been made publicly available on CI&T's communication platform. These articles come in various formats, such as HTML and Video. The dataset includes two files, namely "shared_articles.csv" and "users_interactions.csv", which provide detailed information on the relationships between the articles and readers, offering valuable insights. There are numerous features that can be utilized for content-based and collaborative filtering, including userCountry (the user's country) and userAgent (web browser), which can be leveraged to filter content for users and suggest articles. However, the most crucial feature is the "text", which enables us to identify common words and recommend articles based on similarity scores with other articles. 
+Picture below shows the wordcloud for couple of articles in the dataset after doing some cleaning on the text of the articles.
+![Picture1](https://user-images.githubusercontent.com/121390440/223201615-60a42323-789e-49ec-be88-2f674bedcb13.png)
 
 ## Requirements
 - numpy
